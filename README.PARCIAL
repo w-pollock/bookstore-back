@@ -1,0 +1,6 @@
+Arquitectura de solución:
+
+Para implementar los favoritos dentro de la lista de autores, modifiqué el archivo del contexto de autores para que tuviera un hook para conseguir todos los actores
+que hayan sido clasificados como 'favoritos' y otro para hacerlos set como 'favoritos'. Se guardan en un Set<number> de ID's y se persisten en el storage local. En la parte
+B escogí accesibilidad. Lo de navegación del teclado fue implementado en globals.css y muchos de los atributos ARIA están en las pages.tsx diferentes (principalmente para
+que el usuario sepa que es inválido crear/editar un autor sin nombre ni fecha de nacimiento). También agregué labels en muchos botones.

@@ -101,3 +101,9 @@ code, pre, kbd, samp {
   background: #fff;
 }
 
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #111;
+  outline-offset: 2px;
+  border-radius: 10px;
+}

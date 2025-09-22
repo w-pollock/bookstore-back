@@ -61,6 +61,9 @@ export default function RootLayout({
               <Link href="/crear" style={linkStyle}>
               Crear autor
               </Link>
+              <Link href="/favoritos" style={linkStyle}>
+              Favoritos
+              </Link>
             </nav>
           </header>
           {children}
