@@ -4,3 +4,6 @@ Para implementar los favoritos dentro de la lista de autores, modifiqué el arch
 que hayan sido clasificados como 'favoritos' y otro para hacerlos set como 'favoritos'. Se guardan en un Set<number> de ID's y se persisten en el storage local. En la parte
 B escogí accesibilidad. Lo de navegación del teclado fue implementado en globals.css y muchos de los atributos ARIA están en las pages.tsx diferentes (principalmente para
 que el usuario sepa que es inválido crear/editar un autor sin nombre ni fecha de nacimiento). También agregué labels en muchos botones.
+
+Para correr el sitio: Activar el backend a través de Docker y después ingresar a la carpeta del front (en este caso 'cd preparcialwp'). Cuando
+ya esté adentro, escribir en la terminal 'npm run dev' en ingresar al URL dado.
